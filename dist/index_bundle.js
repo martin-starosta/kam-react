@@ -5010,10 +5010,10 @@ var Header = function Header(props) {
                 ),
                 _react2.default.createElement(
                     'div',
-                    { className: 'c-m-8 flex flex--center m-bottom-0' },
+                    { className: 'c-m-9 flex flex--center m-bottom-0 f-right' },
                     _react2.default.createElement(
                         'nav',
-                        null,
+                        { className: 'row t-right m-bottom-0' },
                         _react2.default.createElement(
                             'ul',
                             { className: 'list list--horizontal' },

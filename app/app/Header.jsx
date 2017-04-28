@@ -18,11 +18,13 @@ const Header = (props) =>
                 <div className="c-m-2 flex flex--center m-bottom-0 site-name" title="KAMovia tvoria túto stránku o sebe a pre seba.">
                     KAM Fórum
                 </div>
-                <div className='c-m-8 flex flex--center m-bottom-0'>
-                    <nav>
+                <div className='c-m-9 flex flex--center m-bottom-0 f-right'>
+                    <nav className="row t-right m-bottom-0">
                         <ul className='list list--horizontal'>
                             <li><Link to="/">Home</Link></li>
                             <li><Link to="/forum">Forum</Link></li>
+                            <li><Link to="/">Prihlásenie</Link></li>
+                            <li><Link to="/">Registrácia</Link></li>
                         </ul>
                     </nav>
                 </div>
